@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  tor-node:
+    image: osminogin/tor-simple
+    ports:
+      - 9050:9050
