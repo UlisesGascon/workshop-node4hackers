@@ -1,0 +1,42 @@
+{
+  "name": "workshop-node4hackers",
+  "version": "1.0.0",
+  "description": "Repositorio de trabajo del Workshop node4hackers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/workshop-node4hackers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/workshop-node4hackers/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/workshop-node4hackers#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "got": "^9.6.0",
+    "iplocation": "^6.1.0",
+    "jsdom": "^15.1.1",
+    "lodash": "^4.17.15",
+    "macaddress": "^0.2.9",
+    "openpgp": "^4.5.5",
+    "prompts": "^2.1.0",
+    "public-ip": "^3.1.0",
+    "puppeteer": "^1.19.0",
+    "ramda": "^0.26.1",
+    "request": "^2.88.0",
+    "robotjs": "^0.5.1",
+    "speedtest-net": "^1.5.1",
+    "ssri": "^6.0.1",
+    "systeminformation": "^4.14.4",
+    "terminal-image": "^0.2.0",
+    "tor-request": "^3.1.0",
+    "uuid": "^3.3.2",
+    "vorpal": "^1.12.0"
+  }
+}
