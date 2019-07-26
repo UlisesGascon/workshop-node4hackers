@@ -20,7 +20,7 @@
 - https://nodejs.org/api/stream.html
 - https://blog.abelotech.com/posts/calculate-checksum-hash-nodejs-javascript/
 - https://www.npmjs.com/package/ssri
-
+- https://wetransfer.com
 
 ### CLI 
 
@@ -38,11 +38,12 @@
 **Nmap**
 - https://highon.coffee/blog/nmap-cheat-sheet/
 - https://www.securityhacklabs.net/articulo/los-5-scripts-mas-intrusivos-y-avanzados-de-nmap-que-deberia-conocer
-
+- https://www.cyberciti.biz/security/nmap-command-examples-tutorials/
 
 
 ### System info
 - https://www.npmjs.com/package/systeminformation
+- https://www.npmjs.com/package/systeminformation#14-get-all-at-once---functions
 
 
 ## TOR
