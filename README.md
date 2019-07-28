@@ -29,7 +29,6 @@ Repositorio de trabajo del Workshop node4hackers
 ### Después del evento
 
 - Vídeo del workshop
-  <iframe src="https://www.youtube.com/embed/Lk0-14Xwjo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  </iframe>
+  [![](http://img.youtube.com/vi/Lk0-14Xwjo0/0.jpg)](http://www.youtube.com/watch?v=Lk0-14Xwjo0)
 - [Cuenta de Twitter](https://twitter.com/kom_256) y en el [canal oficial de telegram de hack madrid](https://t.me/hackmadrid)
 - Puedes entrar en este repo y usar el código como quieras, recuerda que este repo tiene una licencia AGPLv3.
