@@ -2,7 +2,27 @@
 
 Repositorio de trabajo del Workshop node4hackers
 
-![portada](images/portada.png)
+### Vídeo del evento
+
+[![](http://img.youtube.com/vi/Lk0-14Xwjo0/0.jpg)](http://www.youtube.com/watch?v=Lk0-14Xwjo0)
+
+**[índice de contenido en el vídeo](http://www.youtube.com/watch?v=Lk0-14Xwjo0)**
+- Intro: 0:00 - 04:40
+- Consola y termina : 04:40 - 07:00
+- Asincronía: 07:00 - 19:00
+- Servidor HTTP (sin librerías): 19:00 - 27:50
+- Gestión de ficheros (nativo): 27:50 - 35:30
+- Eventos en Nodejs: 35:30 - 42:38
+- Variables de entorno: 42:38 - 45:05
+- Procesos hijo en Node.js: 45:05 - 01:11:00
+- Express y TOR Proxy: 01:11:00 - 01:40:20
+- _Descanso:  01:40:20 - 01:40:40_
+- Planificación de la parte 2: 01:40:40 - 01:42:56
+- Condensando decenas de peticiones HTTP con Express:  01:42:56 - 02:04:40
+- Analizar IPs de Tor y Nodos: 02:04:40 - 02:36:00
+- Scraping: 02:36:00 - 03:07:13
+
+**[Hilo de debate en Twitter](https://twitter.com/kom_256/status/1151540430317740033)**
 
 ### Antes del evento
 
@@ -18,7 +38,6 @@ Repositorio de trabajo del Workshop node4hackers
 
 ### Durante el evento
 
-
 - Seguramente tengamos baja conectividad y seamos muchas personas, es importante ser paciente
 - Es normal perderse, para evitar esto cada pocos minutos iré subiendo lo que estoy haciendo al repositorio de github. Podras re-engancharte siplemente haciendo `git pull origin master` en la consola. Ya que esto te traerá todos los cambios :-)
 - Si ves que puedes ayudar a otras personas, es una gran oportundiad que no deberias dejar pasar. Somos una comunidad princpalmente porque nos apoyamos entre todos y todas ^^.
@@ -28,8 +47,5 @@ Repositorio de trabajo del Workshop node4hackers
 - Mi objetivo como ponente es facilitaros todo lo que hago durante el taller con lo que tendréis todo el material, recursos, links, código, etc... asi te quitamos esa presión y puedes disfrutar mucho más de la experiencia ;-)
 
 ### Después del evento
-
-- Vídeo del workshop
-  [![](http://img.youtube.com/vi/Lk0-14Xwjo0/0.jpg)](http://www.youtube.com/watch?v=Lk0-14Xwjo0)
-- [Cuenta de Twitter](https://twitter.com/kom_256) y en el [canal oficial de telegram de hack madrid](https://t.me/hackmadrid)
+- Los PRs son super bienvenidos!
 - Puedes entrar en este repo y usar el código como quieras, recuerda que este repo tiene una licencia AGPLv3.
