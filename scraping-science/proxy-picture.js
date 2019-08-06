@@ -5,15 +5,14 @@ const fs = require('fs')
 const { JSDOM } = jsdom;
 const app = express()
 const port = 3000
-
+const path = require('path');
 const puppeteer = require('puppeteer');
 
-const generateImg = async (url) => {
-  const imgPath = "hackmadrid.png"
+const generateImg = async (url,imgName) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(url);
-  await page.screenshot({path: imgPath});
+  await page.screenshot({path: imgName});
   await browser.close();
 };
 
@@ -34,23 +33,25 @@ app.get('/pictures', function (req, res) {
     }
     got(url)
         .then((response) => {
-
-const dom = new JSDOM(response.body);
-const urls = (Array.from(dom.window.document.querySelectorAll(selector)).map(image => image.src)) ;
-            res.json({pictures: urls, url})
+                const dom = new JSDOM(response.body);
+                const urls = (Array.from(dom.window.document.querySelectorAll(selector))
+                    .map(image => image.src))
+                res.json({pictures: urls, url})
             })
         .catch(err => res.status(500).send(err))
 })
 
-
 app.get('/captura', function(req, res) {
-    const url = req.query.url
+    let url = req.query.url
     if(!url) {
         return res.status(666).send("Me faltan datos!")
     }
-
-    generateImg(url)
-        .then(raw => res.sendFile(__dirname, `hackmadrid.png`))
+    url=url.startsWith('http://') || url.startsWith('https://')?url:'https://'+url;
+    let imgName = 'screenshot.png'
+    let imgPath= path.join(__dirname,imgName)
+    
+    generateImg(url,imgName)
+        .then(raw => res.sendFile(imgPath))
         .catch(err => {
             console.log(err);
             res.status(666).send(err)
