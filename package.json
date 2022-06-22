@@ -21,7 +21,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "express": "^4.17.1",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "iplocation": "^6.1.0",
     "is-valid-path": "^0.1.1",
     "jsdom": "^15.1.1",
