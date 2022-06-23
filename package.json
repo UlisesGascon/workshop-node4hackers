@@ -24,7 +24,7 @@
     "got": "^9.6.0",
     "iplocation": "^6.1.0",
     "is-valid-path": "^0.1.1",
-    "jsdom": "^15.1.1",
+    "jsdom": "^16.5.0",
     "lodash": "^4.17.15",
     "lowdb": "^1.0.0",
     "macaddress": "^0.2.9",
